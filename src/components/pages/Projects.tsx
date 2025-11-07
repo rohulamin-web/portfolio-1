@@ -74,7 +74,7 @@ const project: Project[] = [
   },
 ];
 
-function Project() {
+function Projects() {
   return (
     <section
       id="projects"
@@ -137,4 +137,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Projects;
