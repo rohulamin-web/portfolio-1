@@ -7,9 +7,12 @@ const About: React.FC = () => {
       className="max-w-7xl mx-auto px-6  py-5  from-indigo-50 to-white "
     >
       <div className="custom-gradient backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden px-6 py-20 border-2 border-t-purple-950 border-b-purple-950">
-        <span className="text-2xl text-white font-semibold tracking-wider mb-5 block text-center">
-          About Me
-        </span>
+        {/* Title */}
+        <div className="text-3xl text-white text-center mb-16">
+          <button className="bg- from-[#0A0A70] to-[#1E40AF] border border-blue-200 px-6 py-3 rounded-md shadow-md shadow-blue-700 hover:scale-105 transition-all duration-300">
+            ABOUT ME
+          </button>
+        </div>
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
           {/* Text Content */}
           <div className="w-full md:w-2/3 text-center md:text-left">
@@ -18,12 +21,14 @@ const About: React.FC = () => {
             </h2>
 
             <p className="mt-6 text-slate-300 leading-relaxed text-lg sm:text-xl font-light">
-              I am Ruhul Amin, a passionate Full Stack Web Developer and a
-              Computer Science student at Daffodil International University. I
-              thrive on solving complex problems and enjoy crafting seamless,
-              dynamic web experiences. Driven by curiosity and innovation, I'm
-              constantly exploring new technologies to enhance my skills and
-              create impactful digital solutions.
+              I’m a Front End Web developer passionate Web Developer skilled in
+              HTML, CSS, JavaScript, Bootstrap, React, Redux, Node.js, and
+              MongoDB. I enjoy creating dynamic, responsive, and user-friendly
+              web applications that bring ideas to life. I focus on writing
+              clean, efficient, and maintainable code while constantly learning
+              new technologies to improve my development skills. My goal is to
+              become a professional Full-Stack Developer and contribute to
+              meaningful and innovative projects, In shaa Allah
             </p>
           </div>
 

@@ -1,4 +1,6 @@
+import { motion } from "framer-motion";
 import React from "react";
+import { FaChalkboardUser } from "react-icons/fa6";
 const Experience: React.FC = () => {
   return (
     <section
@@ -6,9 +8,12 @@ const Experience: React.FC = () => {
       className="max-w-7xl mx-auto px-6  py-5  from-indigo-50 to-white "
     >
       <div className="custom-gradient backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden px-10  py-16 border-2 border-t-purple-950 border-b-purple-950">
-        <span className="text-2xl text-white font-semibold tracking-wider mb-5 block text-center">
-          My Work Experience
-        </span>
+        {/* Title */}
+        <div className="text-3xl text-white text-center mb-16">
+          <button className="bg- from-[#0A0A70] to-[#1E40AF] border border-blue-200 px-6 py-3 rounded-md shadow-md shadow-blue-700 hover:scale-105 transition-all duration-300">
+            EXPERIENCE
+          </button>
+        </div>
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-2/3 flex justify-center">
             <div className="relative group">
@@ -23,39 +28,57 @@ const Experience: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-2/3 text-center md:text-left">
-            <h2 className="text-3xl font-extrabold text-[#EC4899] leading-tight drop-shadow-sm">
-              Full Stack Web Developer
-            </h2>
-            <p className="text-white">
-              Enit It
-              <span className="text-[#16F2B3] ml-2.5">
-                (Jun, 2024 - Present)
-              </span>
-            </p>
+          <div className="sm:w-[400px] sm:mx-auto md:w-[500px]">
+            {/* section one */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: false, amount: 0.2 }}
+              className="p-5"
+            >
+              <div className="border border-blue-200 shadow-sm shadow-blue-300 p-7 rounded-sm">
+                <div className="text-center text-[#09fcd3] relative -top-5">
+                  <h4>(September 2025 - Present)</h4>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div>
+                    <FaChalkboardUser className="text-4xl text-blue-400" />
+                  </div>
+                  <div className="text-white animate__animated animate__heartBeat">
+                    <p>FRONT-END</p>
+                    <p>DEVELOPER &</p>
+                    <p>Learner</p>
+                    <p className="mt-2">Ahmad's IT Institute</p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
 
-            <div className=" text-white mt-3 ">
-              <p className=" before:content-['•'] before:text-2xl before:text-white before:mr-1 before:inline-block before:align-middle mb-2">
-                Developing and maintaining web applications using React.js and
-                other related technologies.
-              </p>
-
-              <p className="relative before:content-['•'] before:text-2xl before:text-white before:mr-1 before:inline-block before:align-middle mb-2">
-                Collaborating with cross-functional teams including designers,
-                product managers, and other developers to create high-quality
-                products.
-              </p>
-
-              <p className="relative before:content-['•'] before:text-2xl before:text-white before:mr-1 before:inline-block before:align-middle mb-2">
-                Implementing responsive design and ensuring cross-browser
-                compatibility.
-              </p>
-
-              <p className="relative before:content-['•'] before:text-2xl before:text-white before:mr-1 before:inline-block before:align-middle">
-                Participating in code reviews and providing constructive
-                feedback to other developers.
-              </p>
-            </div>
+            {/* section two */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+              viewport={{ once: false, amount: 0.2 }}
+              className="p-5"
+            >
+              <div className="border border-blue-200 shadow-sm shadow-blue-300 p-7 rounded-sm">
+                <div className="text-center text-[#09fcd3] relative -top-5">
+                  <h4>(Part-time Imam (Jun 2022 – Octuber 2024))</h4>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div>
+                    <FaChalkboardUser className="text-4xl text-blue-400" />
+                  </div>
+                  <div className="text-white animate__animated animate__heartBeat">
+                    <p>SELF EMPLOYED</p>
+                    <p>Led daily prayers and provided </p>
+                    <p>religious guidance to the community.</p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>

@@ -1,81 +1,71 @@
-import React from "react";
-import { BsTruck } from "react-icons/bs";
+import { FaChalkboardUser } from "react-icons/fa6";
+import { motion } from "framer-motion";
+import AnimatedBackground from "../BackgroundAnimation/BackgroundAnimation";
 
-interface EducationItem {
-  year: string;
-  degree: string;
-  institution: string;
-  details?: string;
-}
-
-const educationData: EducationItem[] = [
-  {
-    year: "2025 - Present",
-    degree: "BACHELOR OF COMPUTER SCIENCE OF ENGINEERING",
-    institution: "Daffodil International University",
-  },
-  {
-    year: "2022 - 2026",
-    degree: "HIGHER SECONDARY SCHOOL CERTIFICATE",
-    institution: "Ahmad Education Dhaka",
-  },
-  {
-    year: "2020 - 2022",
-    degree: "SECONDARY SCHOOL CERTIFICATE",
-    institution: "Dakshin Dhuru High School",
-  },
-];
-
-const Education: React.FC = () => {
+export default function Education() {
   return (
-    <section
+    <div
       id="education"
-      className="
-   custom-gradient  max-w-6xl mx-auto py-12"
+      className="relative bg-[#1A173C] py-20 overflow-hidden ml-1"
     >
-      <h2 className="text-3xl font-extrabold text-white text-center mb-12">
-        Education
-      </h2>
-      <div className="flex flex-col md:flex-row items-center md:items-start">
-        <div className="w-full md:w-1/2 flex justify-center">
-          <img
-            src="https://i.postimg.cc/ZnsZz8zv/education.webp"
-            alt="Education Illustration"
-            className="rounded-2xl shadow-lg w-80 sm:w-96 md:w-full max-w-md object-cover"
-          />
-        </div>
+      <AnimatedBackground />
 
-        <div className="w-full md:w-1/2 space-y-8">
-          {educationData.map((item, idx) => (
-            <div
-              key={idx}
-              className="rounded-xl py-6 px-3 border border-[#EC4899] shadow-[#EC4899] hover:shadow-[0_0_20px_5px_#6C17AF] transition-all duration-300"
-            >
-              <p className="text-[#16F2B3] font-semibold text-lg mb-1 text-center">
-                {item.year}
-              </p>
-              <div className="flex gap-3">
-                <div className="text-5xl text-white flex items-center">
-                  <BsTruck />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-white">
-                    {item.degree}
-                  </h3>
-                  <p className="mt-1 text-white text-[20px]">
-                    {item.institution}
-                  </p>
-                </div>
-              </div>
-              {item.details && (
-                <p className="mt-2 text-sm text-slate-500">{item.details}</p>
-              )}
-            </div>
-          ))}
-        </div>
+      {/* Title */}
+      <div className="text-3xl text-white text-center mb-16">
+        <button className="bg- from-[#0A0A70] to-[#1E40AF] border border-blue-200 px-6 py-3 rounded-md shadow-md shadow-blue-700 hover:scale-105 transition-all duration-300">
+          EDUCATION
+        </button>
       </div>
-    </section>
-  );
-};
 
-export default Education;
+      {/* Section 1 */}
+      <motion.div
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.3 }}
+        className="relative w-full mb-16"
+      >
+        <div className="lg:w-[700px] xl:w-[800px] 2xl:w-[900px] mx-auto">
+          <div className="bg-[#23205a] border border-cyan-300/40 rounded-2xl p-8 text-white shadow-lg shadow-blue-800/30">
+            <div className="flex items-center gap-4 mb-4">
+              <FaChalkboardUser className="text-4xl text-cyan-400" />
+              <h4 className="text-xl font-semibold text-cyan-300">
+                (Jun 2024 - Present)
+              </h4>
+            </div>
+            <p className="text-2xl font-semibold mb-2">
+              MASTER'S IN ISLAMIC STUDIES
+            </p>
+            <p className="text-gray-200">
+              JAMIA ARABIA IMDADUL ULUM, FARIDABAD, DHAKA
+            </p>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Section 2 */}
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+        viewport={{ once: false, amount: 0.3 }}
+        className="relative w-full mb-16"
+      >
+        <div className="lg:w-[700px] xl:w-[800px] 2xl:w-[900px] mx-auto">
+          <div className="bg-[#23205a] border border-cyan-300/40 rounded-2xl p-8 text-white shadow-lg shadow-blue-800/30">
+            <div className="flex items-center gap-4 mb-4">
+              <FaChalkboardUser className="text-4xl text-cyan-400" />
+              <h4 className="text-xl font-semibold text-cyan-300">
+                (Jun 2025 - Present)
+              </h4>
+            </div>
+            <p className="text-2xl font-semibold mb-2">
+              Diploma in English & COMPUTER TECHNOLOGY
+            </p>
+            <p className="text-gray-200">Ahmad Education</p>
+          </div>
+        </div>
+      </motion.div>
+    </div>
+  );
+}

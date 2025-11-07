@@ -22,13 +22,13 @@ const Footer = () => {
               <FaTwitter className="text-white text-xl" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/rohul-amin-a32517391/"
               className="bg-[#1E293B] p-3 rounded-full hover:bg-blue-950 transition"
             >
               <FaLinkedin className="text-white text-xl" />
             </a>
             <a
-              href="#"
+              href="https://wa.me/8801791305462"
               className="bg-[#1E293B] p-3 rounded-full hover:bg-blue-950 transition"
             >
               <FaWhatsapp className="text-white text-xl" />

@@ -38,19 +38,19 @@ const expertAreas: ExpertArea[] = [
     img: "https://i.postimg.cc/zvMkbD9C/reduxpng.png",
     title: "Redux",
   },
-  {
-    img: "https://i.postimg.cc/k5cFNv0s/sol.jpg",
-    title: "SQL",
-  },
 ];
 
 const ExpertArea: React.FC = () => {
   return (
     <section id="skills" className="max-w-6xl mx-auto py-10 ">
       <div className="mb-12">
-        <h2 className="text-2xl font-extrabold text-white text-center">
-          My Expert Areas
-        </h2>
+        {/* Title */}
+        <div className="text-3xl text-white text-center mb-16">
+          <button className="bg- from-[#0A0A70] to-[#1E40AF] border border-blue-200 px-6 py-3 rounded-md shadow-md shadow-blue-700 hover:scale-105 transition-all duration-300">
+            MY EXPERT AREAS
+          </button>
+        </div>
+        My Expert Areas
         <div className="text-gray-400 text-center text-[16px] font-bold mt-2">
           <p className="">
             Express Yourself Freely And Creatively, Using Customizable Templates
@@ -62,7 +62,7 @@ const ExpertArea: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {expertAreas.map((area, idx) => (
           <div
             key={idx}

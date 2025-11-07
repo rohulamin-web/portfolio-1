@@ -67,7 +67,7 @@ function Navbar() {
             offset={-70}
             className="hover:text-[#16F2B3] cursor-pointer"
           >
-            Projects
+            Project
           </Link>
         </ul>
 

@@ -1,12 +1,13 @@
 import About from "../pages/About";
-import Contact from "../pages/contact";
+import Contact from "../pages/Contact";
+
 import Education from "../pages/Education";
 import Experience from "../pages/Experience";
 import ExpertArea from "../pages/ExpertArea";
 import Footer from "../pages/Footer";
 import Hero from "../pages/Hero";
 import Navbar from "../pages/Navbar";
-import Projects from "../pages/projects";
+import Project from "../pages/project";
 
 function FrontLayout() {
   return (
@@ -17,7 +18,7 @@ function FrontLayout() {
       <Education />
       <ExpertArea />
       <Experience />
-      <Projects />
+      <Project />
       <Contact />
       <Footer />
     </div>
