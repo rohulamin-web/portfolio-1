@@ -1,6 +1,5 @@
 import About from "../pages/About";
 import Contact from "../pages/Contact";
-
 import Education from "../pages/Education";
 import Experience from "../pages/Experience";
 import ExpertArea from "../pages/ExpertArea";
