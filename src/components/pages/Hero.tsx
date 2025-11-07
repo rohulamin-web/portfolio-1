@@ -93,13 +93,13 @@ const Hero: React.FC = () => {
       id="hero"
       className="max-w-7xl mx-auto px-10 py-28 flex flex-col-reverse md:flex-row items-center gap-12"
     >
-      <div className=" flex-1 ">
+      <div className=" flex-1 justify-center ">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: false, amount: 0.3 }}
-          className=" text-center lg:text-left z-10 pr-30"
+          className=" text-center lg:text-left z-10 "
         >
           <h2 className="text-4xl sm:text-5xl text-white font-semibold mb-3">
             Hello,
@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
             <span ref={typedElement}></span>
           </h3>
 
-          <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
+          <p className="text-gray-300 text-base sm:text-lg leading-relaxed pr-20 pl-5">
             I am a motivated and versatile individual, always eager to take on
             new challenges. With a passion for learning, I am dedicated to
             delivering high-quality results. With a positive attitude and a
