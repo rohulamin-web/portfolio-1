@@ -7,35 +7,35 @@ interface ExpertArea {
 
 const expertAreas: ExpertArea[] = [
   {
-    img: "https://i.postimg.cc/Y9t2C9kH/html.png",
+    img: "images/html.png",
     title: "Html",
   },
   {
-    img: "https://i.postimg.cc/9QwnBKbT/next.png",
+    img: "images/next.png",
     title: "Next.js",
   },
   {
-    img: "https://i.postimg.cc/63PZzjY8/typescript.png",
+    img: "images/typescript.png",
     title: "TypeScript",
   },
   {
-    img: "https://i.postimg.cc/v8P2wbSn/react.png",
+    img: "images/react.png",
     title: "React.js",
   },
   {
-    img: "https://i.postimg.cc/k4gPJwN5/javascript.png",
+    img: "images/javascript.png",
     title: "JavaScript",
   },
   {
-    img: "https://i.postimg.cc/YSgTtZmk/mongo-DB.png",
+    img: "images/mongoDB.png",
     title: "MongoDB",
   },
   {
-    img: "https://i.postimg.cc/02wYXsTW/tailwind.png",
+    img: "images/tailwind.png",
     title: "Tailwind CSS",
   },
   {
-    img: "https://i.postimg.cc/zvMkbD9C/reduxpng.png",
+    img: "images/reduxpng.png",
     title: "Redux",
   },
 ];

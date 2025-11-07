@@ -38,7 +38,7 @@ const About: React.FC = () => {
               <div className="absolute -inset-1 rounded-full  from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-lg group-hover:opacity-100 transition duration-500"></div>
               <div className="relative w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-xl">
                 <img
-                  src="https://i.postimg.cc/6qBVsnfj/Pngtree-a-laptop-settings-isometric-vector-14871445-szfchr.png"
+                  src="/images/laptop.png"
                   alt="Your Name"
                   className="w-full h-full object-cover"
                 ></img>

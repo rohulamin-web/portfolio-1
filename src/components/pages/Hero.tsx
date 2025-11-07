@@ -177,7 +177,7 @@ const Hero: React.FC = () => {
       >
         <div className="w-full h-full rounded-2xl overflow-hidden bg-white/80 flex items-center justify-center">
           <img
-            src="https://i.postimg.cc/Zn0hnCBs/IMG-20251013-170910080.jpg"
+            src="/images/rohulamin-01.png"
             alt="Rohul Amin"
             className="w-full h-full object-cover"
           />

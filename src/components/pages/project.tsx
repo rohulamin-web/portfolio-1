@@ -12,7 +12,7 @@ const project: Project[] = [
     title: "Madrasha Website",
     subTitle:
       "Madrasa is a digital learning platform dedicated to Islamic education. It provides access to Quran and Islamic studies for students and teachers..",
-    imageUrl: "https://i.postimg.cc/YC473f61/madrasa.png",
+    imageUrl: "/images/madrasa.png",
     techStack: ["Html", " #React js", "#Tailwind CSS"],
     viewCode: "https://github.com/rohulamin-web/madrasa",
     viewLiveApp: "https://madrasa-topaz.vercel.app/",
@@ -21,7 +21,7 @@ const project: Project[] = [
     title: "Personal Portfolio.",
     subTitle:
       "A modern personal portfolio website showcasing my skills and projects.",
-    imageUrl: "https://i.postimg.cc/76fC4T0Z/Untitled6.png",
+    imageUrl: "/images/portfolio.png",
     techStack: ["Html", "#Tailwind CSS", " #React js", "Typescript"],
     viewCode: "",
     viewLiveApp: "",
@@ -30,7 +30,7 @@ const project: Project[] = [
     title: "My Library",
     subTitle:
       "This is a demo project of a library. I will update this website in future..",
-    imageUrl: "https://i.postimg.cc/m2DZ0Pzm/lib.png",
+    imageUrl: "/images/lib.png",
     techStack: [" #React js", "#Tailwind CSS"],
     viewCode: "https://github.com/rohulamin-web/Library-website",
     viewLiveApp: "https://library-website-coral.vercel.app/",
@@ -39,7 +39,7 @@ const project: Project[] = [
     title: "My Blog site",
     subTitle:
       "This blog is all about Front-End Development, React, and Tailwind CSS. I share tutorials, project ideas, and tips to help you create beautiful, responsive websites efficiently..",
-    imageUrl: "https://i.postimg.cc/SNkqhJnZ/blog.png",
+    imageUrl: "/images/blog.png",
     techStack: [" #React js", "#Tailwind CSS", "Typescript", "#Redux Toolkit"],
     viewCode: "https://github.com/rohulamin-web/Advance-blog-html",
     viewLiveApp: "https://advance-blog-html-fawn.vercel.app/",
@@ -48,7 +48,7 @@ const project: Project[] = [
     title: "Need Blood",
     subTitle:
       "In this need blood web application user can add blood request and find blood donors.",
-    imageUrl: "https://i.postimg.cc/vTwb1Z5h/imag-05.jpg",
+    imageUrl: "/images/imag-05.jpg",
     techStack: [
       " #React js",
       "#Node.js",
@@ -62,7 +62,7 @@ const project: Project[] = [
     title: "Leon Engineering Works",
     subTitle:
       "This is bussines management website. This website is portfolio webstie of this company.",
-    imageUrl: "https://i.postimg.cc/qBw567c0/image-06.jpg",
+    imageUrl: "/images/image-06.jpg",
     techStack: [
       " #React js",
       "#Node.js",
