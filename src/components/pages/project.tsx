@@ -87,11 +87,11 @@ function Project() {
             PROJECTS
           </button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 ">
           {project.map((proj, index) => (
             <div
               key={index}
-              className="bg-[#1E293B] rounded-2xl overflow-hidden shadow-lg"
+              className="bg-[#1E293B] rounded-2xl overflow-hidden shadow-lg hover:shadow-xl shadow-black hover:scale-105 duration-300"
             >
               <img
                 src={proj.imageUrl}
