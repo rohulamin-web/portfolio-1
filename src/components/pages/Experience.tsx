@@ -14,7 +14,7 @@ const Experience: React.FC = () => {
             EXPERIENCE
           </button>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-12">
+        <div className="flex flex-col md:flex-row items-center gap-12 ">
           <div className="w-full md:w-2/3 flex justify-center">
             <div className="relative group">
               <div className="absolute -inset-1 rounded-full  from-indigo-500 via-purple-500 to-pink-500 opacity-75 blur-lg group-hover:opacity-100 transition duration-500"></div>
@@ -41,7 +41,7 @@ const Experience: React.FC = () => {
                 <div className="text-center text-[#09fcd3] relative -top-5">
                   <h4>(September 2025 - Present)</h4>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center gap-3 md:gap-0">
                   <div>
                     <FaChalkboardUser className="text-4xl text-blue-400" />
                   </div>
@@ -67,7 +67,7 @@ const Experience: React.FC = () => {
                 <div className="text-center text-[#09fcd3] relative -top-5">
                   <h4>(Part-time Imam (Jun 2022 – Octuber 2024))</h4>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center gap-3 md:mx-0">
                   <div>
                     <FaChalkboardUser className="text-4xl text-blue-400" />
                   </div>

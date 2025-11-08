@@ -175,7 +175,7 @@ const Hero: React.FC = () => {
         viewport={{ once: false, amount: 0.3 }}
         className="w-56 h-56 sm:w-64 sm:h-64 md:w-92 md:h-92 rounded-3xl p-1  from-indigo-100 via-white to-white shadow-xl flex items-center justify-center transform transition hover:scale-[1.03]"
       >
-        <div className="w-full h-full rounded-2xl overflow-hidden bg-white/80 flex items-center justify-center">
+        <div className="w-full h-full  rounded-2xl overflow-hidden bg-white/80 flex items-center justify-center">
           <img
             src="/images/rohulamin-01.png"
             alt="Rohul Amin"

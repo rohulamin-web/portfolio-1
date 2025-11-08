@@ -62,7 +62,7 @@ const ExpertArea: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mx-5 md:mx-0">
         {expertAreas.map((area, idx) => (
           <div
             key={idx}

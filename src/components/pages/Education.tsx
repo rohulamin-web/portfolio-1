@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <div
       id="education"
-      className="relative bg-[#1A173C] py-20 overflow-hidden ml-1"
+      className="relative bg-[#1A173C] py-20 overflow-hidden ml-1 "
     >
       <AnimatedBackground />
 
@@ -25,8 +25,8 @@ export default function Education() {
         viewport={{ once: false, amount: 0.3 }}
         className="relative w-full mb-16"
       >
-        <div className="lg:w-[700px] xl:w-[800px] 2xl:w-[900px] mx-auto">
-          <div className="bg-[#23205a] border border-cyan-300/40 rounded-2xl p-8 text-white shadow-lg shadow-blue-800/30">
+        <div className="lg:w-[700px] xl:w-[800px] 2xl:w-[900px] mx-auto ">
+          <div className="bg-[#23205a] border border-cyan-300/40 rounded-2xl p-8 text-white shadow-lg shadow-blue-800/30 mx-4 md:mx-0">
             <div className="flex items-center gap-4 mb-4">
               <FaChalkboardUser className="text-4xl text-cyan-400" />
               <h4 className="text-xl font-semibold text-cyan-300">
@@ -51,8 +51,8 @@ export default function Education() {
         viewport={{ once: false, amount: 0.3 }}
         className="relative w-full mb-16"
       >
-        <div className="lg:w-[700px] xl:w-[800px] 2xl:w-[900px] mx-auto">
-          <div className="bg-[#23205a] border border-cyan-300/40 rounded-2xl p-8 text-white shadow-lg shadow-blue-800/30">
+        <div className="lg:w-[700px] xl:w-[800px] 2xl:w-[900px] mx-auto ">
+          <div className="bg-[#23205a] border border-cyan-300/40 rounded-2xl p-8 text-white shadow-lg shadow-blue-800/30 mx-4 md:mx-0">
             <div className="flex items-center gap-4 mb-4">
               <FaChalkboardUser className="text-4xl text-cyan-400" />
               <h4 className="text-xl font-semibold text-cyan-300">
