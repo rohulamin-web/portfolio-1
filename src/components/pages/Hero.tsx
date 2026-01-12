@@ -12,12 +12,12 @@ const socialItems = [
   {
     icon: <FiGithub size={20} />,
     label: "Github",
-    href: "https://github.com/rohulamin-web/Full-Stack-Blog",
+    href: "https://github.com/rohulamin-web",
   },
   {
     icon: <FiLinkedin size={20} />,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/rohul-amin-a32517391/",
+    href: "https://www.linkedin.com/in/rohul-amin-911b63395/",
   },
   {
     icon: <FiMail size={20} />,
@@ -134,7 +134,7 @@ const Hero: React.FC = () => {
             </Link>
 
             <a
-              href="#contact"
+              href="https://drive.google.com/file/d/1nKG8PnAMSQxGBN8I8NqaSU2HEpgqGfyP/view"
               className="inline-flex items-center px-5 py-3 rounded-4xl text-white bg-blue-600 hover:bg-slate-50 hover:text-black transition"
             >
               View Resume

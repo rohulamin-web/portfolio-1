@@ -22,7 +22,7 @@ const Footer = () => {
               <FaTwitter className="text-white text-xl" />
             </a>
             <a
-              href="https://www.linkedin.com/in/rohul-amin-a32517391/"
+              href="https://www.linkedin.com/in/rohul-amin-911b63395/"
               className="bg-[#1E293B] p-3 rounded-full hover:bg-blue-950 transition"
             >
               <FaLinkedin className="text-white text-xl" />
