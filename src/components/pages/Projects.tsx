@@ -69,8 +69,8 @@ const project: Project[] = [
       "#MongoDB",
       "#Tailwind CSS ,# Express.js",
     ],
-    viewCode: "",
-    viewLiveApp: "",
+    viewCode: "https://github.com/rohulamin-web/restaurant-website",
+    viewLiveApp: "https://restaurant-website-chi-three.vercel.app/",
   },
 ];
 
